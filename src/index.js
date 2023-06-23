@@ -11,7 +11,7 @@ import backgroundImage from './images/ireland_satellite_map_landscape.jpg';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className="bg" 
+    <div className="" 
     // style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '115vh' }}
     >
       <App />

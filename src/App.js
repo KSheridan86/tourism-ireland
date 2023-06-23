@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -22,7 +23,7 @@ const App = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" to="/" onClick={closeNav}>
-            Tourism Ireland
+            Are ye havin' the Craic?
           </Link>
           <button
             className="navbar-toggler"
@@ -57,7 +58,7 @@ const App = () => {
           </div>
         </div>
       </nav>
-      <div className="container mt-4">
+      <div className="container bg">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -65,6 +66,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 };

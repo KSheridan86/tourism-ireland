@@ -2,17 +2,21 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div class="d-flex flex-column vh-100">
-      <div className="home border rounded p-2 mt-auto">
-        <p>"Welcome to the enchanting land of Ireland, a captivating destination that beckons travelers from across the globe. 
-        With its breathtaking landscapes, rich history, vibrant culture, and warm hospitality, Ireland offers an unforgettable 
-        experience to all who venture here. Immerse yourself in the lush green countryside, dotted with ancient castles and 
-        charming villages, or explore the bustling cities that seamlessly blend tradition with modernity. 
-        Discover the legendary myths and folklore, savor the flavors of traditional Irish cuisine, and experience the lively 
-        pub culture where lively music and dance create an atmosphere of pure joy. Whether you're drawn to its dramatic coastlines, 
-        mystical ancient sites, or the warmth of its people, Ireland promises to leave an indelible mark on your heart and create 
-        memories to last a lifetime."
-          </p>
+    <div class="d-flex flex-column vh-100 text-center">
+      <div className="destinations border rounded p-2 mt-5 mb-1 m-auto">
+        <p>"Welcome to the enchanting land of Ireland, the best little country in the world."
+        </p>
+        <p>Céad Míle Fáilte</p>
+      </div>
+      <div className="destinations border rounded p-2 mt-1 m-auto">
+        <p>Check out some of our best destinations below.
+        </p>
+        <p>Newgrange</p>
+        <p>The cliffs of Moher</p>
+        <p>Blarney Castle</p>
+        <p>PowersCourt Estate</p>
+        <p>Skellig Michael</p>
+        <p>The Guinness Storehouse</p>
       </div>
     </div>
   );
