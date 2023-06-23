@@ -19,10 +19,10 @@ const App = () => {
 
   return (
     <Router>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" to="/" onClick={closeNav}>
-            React App
+            Tourism Ireland
           </Link>
           <button
             className="navbar-toggler"
@@ -34,13 +34,13 @@ const App = () => {
           <div className={`collapse navbar-collapse${isNavOpen ? ' show' : ''}`}>
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" to="/" onClick={closeNav}>
+                <Link className="nav-link custom-navbar-link" to="/" onClick={closeNav}>
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about" onClick={closeNav}>
-                  About
+                  Destinations
                 </Link>
               </li>
               <li className="nav-item">
