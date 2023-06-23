@@ -21,13 +21,49 @@
 
 .navbar-nav {
   background-color: #00921d;
-  width: auto;
+  /* width: auto; */
 }
 
-.footer {
+.navbar-collapse {
+  width: 100%;
+  margin-left: 10rem;
   background-color: #00921d;
-  color: white;
-  height: 20vh;
+  z-index: 1;
+  overflow-y: auto;
+  text-align: center;
+  max-height: 100vh;
+  transition: max-height 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    width: 100%;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00921d;
+    z-index: 1;
+    overflow-y: auto;
+    text-align: center;
+    max-height: 100vh;
+    transition: max-height 0.3s ease;
+    margin-top: 10vh;
+  }
+}
+
+.navbar-collapse.show {
+  /* right: 0; */
+  max-height: calc(100vh - 56px);;
+}
+
+.navbar-toggler {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-toggler-icon {
+  background-color: #00921d; /* Replace with your desired color */
 }
 
 .navbar .navbar-brand {
@@ -50,13 +86,6 @@
   margin: auto;
 }
 
-@media (max-width: 768px) {
-  .home {
-    font-size: 1rem;
-    width: 90%;
-  }
-}
-
 .destinations {
   color: white;
   font-size: 1rem;
@@ -71,33 +100,18 @@
   }
 }
 
-
-
-.navbar-collapse {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  /* bottom: 0; */
-  background-color: #00921d; /* Replace with your desired background color */
-  z-index: 1;
-  overflow-y: auto;
-  text-align: center;
-  max-height: 100vh;
-  transition: max-height 0.3s ease;
-  margin-top: 10vh;
+.footer {
+  background-color: #00921d;
+  color: white;
+  height: 20vh;
 }
 
-.navbar-collapse.show {
-  right: 0;
-  max-height: calc(100vh - 56px);;
-}
 
-.navbar-toggler {
-  position: relative;
-  z-index: 2;
-}
+/* Media Queries */
 
-.navbar-toggler-icon {
-  background-color: #00921d; /* Replace with your desired color */
+@media (max-width: 768px) {
+  .home {
+    font-size: 1rem;
+    width: 90%;
+  }
 }

@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-import backgroundImage from './images/ireland_satellite_map_landscape.jpg';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className="" 
-    // style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '115vh' }}
-    >
       <App />
-    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
