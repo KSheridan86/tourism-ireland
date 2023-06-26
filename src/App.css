@@ -20,12 +20,11 @@ div > a {
 
 p > a {
   text-decoration: none;
-  color: whitesmoke;
+  color: black;
   font-size: 1.1rem;;
 }
 
 .bg {
-  /* background-image: url('./images/event-island.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,19 +92,23 @@ p > a {
 .navbar .nav-link {
   color: white;
   font-size: 1.25rem;
+  border-bottom: 1px solid #fe9901;
+  width: 70%;
+  margin: auto;
 }
 
 .home {
-  color: whitesmoke;
+  color: black;
   font-size: 1.25rem;
-  width: 100%;
-  background-color: rgb(40, 44, 52, .7);
+  /* width: 100%; */
+  border: 3px solid #fe9901;
+  background-color: rgba(241, 184, 118, 0.4);
 }
 
 .home-image {
-  height: 70vh;
   width: 100%;
   object-fit: cover;
+  border: 3px solid #fe9901;
 }
 
 .featured-destination-pic {
@@ -120,7 +123,8 @@ p > a {
 }
 
 .acc-box {
-  background-color: whitesmoke;
+  background-color: rgba(241, 184, 118, 0.4);
+  border: 3px solid #fe9901;
 }
 
 .background {
@@ -128,14 +132,20 @@ p > a {
 }
 
 .destinations {
-  color: whitesmoke;
+  color: black;
   font-size: 1rem;
-  width: 70%;
-  background-color: rgb(40, 44, 52, .9);
+  /* width: 70%; */
+  background-color: rgba(241, 184, 118, 0.4);
+  border: 3px solid #fe9901;
+}
+
+#guinness, #cliffs, #blarney, #powerscourt, #newgrange, #skellig {
+  border: 3px solid #fe9901;
+  background-color: rgba(241, 184, 118, 0.4);
 }
 
 .featured-destinations {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: rgb(245, 245, 245, .2);
 }
 
@@ -172,4 +182,10 @@ p > a {
 .eire {
   width: 50%;
   height: auto;
+}
+
+@media (min-width: 992px) {
+  .eire {
+    width: 25%;
+  }
 }

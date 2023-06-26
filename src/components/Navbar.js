@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import '../App.css';
 import Home from './Home';
-import About from './About';
+import Destinations from './Destinations';
 import Accommodation from './Accommodation';
 import Contact from './Contact';
 
@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <Router>
-            <nav className="navbar navbar-expand-lg sticky-top border-bottom border-grey border-4">
+            <nav className="navbar navbar-expand-lg sticky-top">
                 <div className="container">
                     <Link className="navbar-brand" to="/" onClick={closeNav}>
                         <img src="/images/ireland(1).png" alt="Ireland Flag" className="navbar-logo" />
@@ -40,7 +40,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about" onClick={closeNav}>
+                                <Link className="nav-link" to="/destinations" onClick={closeNav}>
                                     Destinations
                                 </Link>
                             </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
             {/* <div className="container bg"> */}
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
+                    <Route path="/destinations" element={<Destinations />} />
                     <Route path="/accommodation" element={<Accommodation />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>

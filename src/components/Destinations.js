@@ -1,26 +1,27 @@
 import React from 'react';
 
-const About = () => {
+const Destinations = () => {
   return (
-    <div class="text-center featured-destinations pt-3">
+    <div class="text-center featured-destinations pt-3 container-fluid">
+
       <div className="fs-5 p-2 mb-1 m-3">
         <p>"Welcome to the enchanting land of Ireland, the best little country in the world."</p>
         <img src="/images/ireland(1).png" alt="Ireland" className="eire mb-2" />
         <p>Céad Míle Fáilte</p>
       </div>
+      <div className="row justify-content-center">
+        <div className="destinations rounded p-2 mt-1 m-auto col-10 col-lg-6 mb-4">
+          <p>Check out some of our best destinations below.</p>
+          <p><a href="#newgrange">Newgrange</a></p>
+          <p><a href="#cliffs">The Cliffs of Moher</a></p>
+          <p><a href="#blarney">Blarney Castle</a></p>
+          <p><a href="#powerscourt">PowersCourt Estate</a></p>
+          <p><a href="#skellig">Skellig Michael</a></p>
+          <p><a href="#guinness">The Guinness Storehouse</a></p>
+        </div>
+        <hr></hr>
 
-      <div className="destinations border rounded p-2 mt-1 m-auto">
-        <p>Check out some of our best destinations below.
-        </p>
-        <p><a href="#newgrange">Newgrange</a></p>
-        <p><a href="#cliffs">The Cliffs of Moher</a></p>
-        <p><a href="#blarney">Blarney Castle</a></p>
-        <p><a href="#powerscourt">PowersCourt Estate</a></p>
-        <p><a href="#skellig">Skellig Michael</a></p>
-        <p><a href="#guinness">The Guinness Storehouse</a></p>
-      </div>
-
-      <div className="border border-4 border-dark p-2 m-3 rounded" id="guinness">
+      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="guinness">
         <h2>The Guinness Storehouse</h2>
         <div className="text-center">
           <img src="/images/guinness_storehouse.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -34,7 +35,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="border border-4 border-dark p-2 m-3 rounded" id="cliffs">
+      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="cliffs">
         <h2>The Cliffs of Moher</h2>
         <div className="text-center">
           <img src="/images/cliffs_of_moher.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -49,7 +50,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="border border-4 border-dark p-2 m-3 rounded" id="skellig">
+      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="skellig">
         <h2>Skellig Michael</h2>
         <div className="text-center">
           <img src="/images/skellig_michael.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -62,7 +63,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="border border-4 border-dark p-2 m-3 rounded" id="newgrange">
+      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="newgrange">
         <h2>Newgrange</h2>
         <div className="text-center">
           <img src="/images/newgrange.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -76,7 +77,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="border border-4 border-dark p-2 m-3 rounded" id="powerscourt">
+      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="powerscourt">
         <h2>Powerscourt Estate</h2>
         <div className="text-center">
           <img src="/images/powerscourt_estate.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -91,7 +92,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="border border-4 border-dark p-2 m-3 rounded" id="blarney">
+      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="blarney">
         <h2>Blarney Castle</h2>
         <div className="text-center">
           <img src="/images/blarney_castle.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -104,8 +105,9 @@ const About = () => {
           </p>
         </div>
       </div>
+      </div>
     </div>
   );
 };
 
-export default About;
+export default Destinations;
