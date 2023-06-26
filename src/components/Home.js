@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div class="d-flex flex-column vh-100 m-0 p-0">
+    <div class="home-page d-flex flex-column">
       <div className="home border rounded p-2 mt-auto">
         <p>"Welcome to the enchanting land of Ireland, a captivating destination that beckons travelers from across the globe. 
         With its breathtaking landscapes, rich history, vibrant culture, and warm hospitality, Ireland offers an unforgettable 

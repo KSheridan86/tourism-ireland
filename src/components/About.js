@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div class="d-flex flex-column vh-100 text-center">
+    <div class="featured-destinations text-center">
       <div className="destinations border rounded p-2 mt-5 mb-1 m-auto">
         <p>"Welcome to the enchanting land of Ireland, the best little country in the world."
         </p>

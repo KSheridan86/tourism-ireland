@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div class="d-flex flex-column vh-100 m-0 p-3">
+    <div class="contact-page d-flex flex-column p-3">
       <div className="contact border rounded p-2">
         <p>Contact</p>
         <p>"Welcome to the enchanting land of Ireland, a captivating destination that beckons travelers from across the globe. 

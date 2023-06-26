@@ -4,6 +4,11 @@
   font-family: 'Caprasimo', sans-serif;
 }
 
+div > a {
+  text-decoration: none;
+  color: black;
+}
+
 .bg {
   background-image: url('./images/event-island.jpg');
   background-size: cover;
@@ -86,11 +91,23 @@
   margin: auto;
 }
 
+.home-page, .contact-page {
+  min-height: 100vh;
+}
+
 .destinations {
   color: white;
   font-size: 1rem;
   width: 70%;
   background-color: rgb(40, 44, 52, .9);
+}
+
+.featured-destinations {
+  min-height: 100vh;
+}
+
+.accommodation {
+  min-height: 100vh;
 }
 
 @media (max-width: 768px) {

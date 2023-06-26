@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <Router>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg sticky-top">
                 <div className="container">
                     <Link className="navbar-brand" to="/" onClick={closeNav}>
                         Are ye havin' the Craic?
