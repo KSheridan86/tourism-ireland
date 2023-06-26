@@ -1,19 +1,29 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   return (
     <div class="contact-page d-flex flex-column p-3">
       <div className="contact border rounded p-2">
-        <p>Contact</p>
-        <p>"Welcome to the enchanting land of Ireland, a captivating destination that beckons travelers from across the globe. 
-        With its breathtaking landscapes, rich history, vibrant culture, and warm hospitality, Ireland offers an unforgettable 
-        experience to all who venture here. Immerse yourself in the lush green countryside, dotted with ancient castles and 
-        charming villages, or explore the bustling cities that seamlessly blend tradition with modernity. 
-        Discover the legendary myths and folklore, savor the flavors of traditional Irish cuisine, and experience the lively 
-        pub culture where lively music and dance create an atmosphere of pure joy. Whether you're drawn to its dramatic coastlines, 
-        mystical ancient sites, or the warmth of its people, Ireland promises to leave an indelible mark on your heart and create 
-        memories to last a lifetime."
-          </p>
+        <p>
+          This site was built by ChimpTech Web Design. 
+          If you would like to get in touch with us, please email us 
+          <a className="email" href="mailto: kensheridan86@gmail.com"> HERE</a>
+        </p>  
+        <div>You can check out our other work on our website 
+          <a href="https://www.chimptech.ie" target="_blank" rel="noreferrer"> ChimpTech.ie</a>
+
+          <FontAwesomeIcon icon={faCoffee} />
+          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faGithub} />
+
+        </div>
+
       </div>
     </div>
   );

@@ -22,6 +22,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg sticky-top border-bottom border-grey border-4">
                 <div className="container">
                     <Link className="navbar-brand" to="/" onClick={closeNav}>
+                        <img src="/images/ireland(1).png" alt="Ireland Flag" className="navbar-logo" />
                         Are ye havin' the Craic?
                     </Link>
                     <button

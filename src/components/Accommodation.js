@@ -63,6 +63,8 @@ import axios from 'axios';
 const Accommodation = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState([]);
+  const [isVisible, setIsVisible] = useState(false);
+
 
   const handleSearch = async (e) => {
     try {
@@ -70,6 +72,7 @@ const Accommodation = () => {
         "https://ksheridan86.github.io/Data/Accommodation.json"
       );
       setResults(response.data);
+      setIsVisible(true);
     } catch (error) {
       console.error('Error occurred during search:', error);
     }
@@ -118,7 +121,7 @@ const Accommodation = () => {
           );
         })
       ) : (
-        searchTerm !== '' && <p>No results found</p>
+        searchTerm !== '' && isVisible && <p>No results found</p>
       )}
     </div>
   );
