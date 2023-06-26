@@ -2,8 +2,12 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div class="home-page d-flex flex-column">
-      <div className="home border rounded p-2 mt-auto">
+    <div class="home-page">
+      <div className="p-3 m-1 mt-0">
+        <img src="/images/food-map.jpg" alt="Ireland" className="home-image border border-4 rounded" />
+      </div>
+      
+      <div className="home m-auto border border-4 rounded p-3 mt-auto">
         <p>"Welcome to the enchanting land of Ireland, a captivating destination that beckons travelers from across the globe. 
         With its breathtaking landscapes, rich history, vibrant culture, and warm hospitality, Ireland offers an unforgettable 
         experience to all who venture here. Immerse yourself in the lush green countryside, dotted with ancient castles and 

@@ -10,7 +10,7 @@ div > a {
 }
 
 .bg {
-  background-image: url('./images/event-island.jpg');
+  /* background-image: url('./images/event-island.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,16 +83,31 @@ div > a {
 }
 
 .home {
-  color: white;
+  color: whitesmoke;
   font-size: 1.25rem;
-  width: 70%;
-  display: none;
+  width: 100%;
   background-color: rgb(40, 44, 52, .7);
-  margin: auto;
+}
+
+.home-image {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .home-page, .contact-page {
   min-height: 100vh;
+  background-color: rgb(245, 245, 245, .2);
+  padding-bottom: 2rem;
+  /* background-color: #00921d; */
+}
+
+.acc-box {
+  background-color: whitesmoke;
+}
+
+.background {
+  background-color: #00921d;
 }
 
 .destinations {
@@ -104,10 +119,13 @@ div > a {
 
 .featured-destinations {
   min-height: 100vh;
+  background-color: rgb(245, 245, 245, .2);
 }
 
 .accommodation {
   min-height: 100vh;
+  color: rgb(29, 29, 29);
+  background-color: rgb(245, 245, 245, .2);
 }
 
 @media (max-width: 768px) {

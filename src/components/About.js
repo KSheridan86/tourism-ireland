@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div class="featured-destinations text-center">
-      <div className="destinations border rounded p-2 mt-5 mb-1 m-auto">
+    <div class="text-center featured-destinations pt-3">
+      <div className="destinations border rounded p-2 mb-1 m-auto">
         <p>"Welcome to the enchanting land of Ireland, the best little country in the world."
         </p>
         <p>Céad Míle Fáilte</p>

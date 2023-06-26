@@ -80,7 +80,7 @@ const Accommodation = () => {
   );
 
   return (
-    <div className='text-center mt-2 accommodation'>
+    <div className='text-center accommodation'>
       <div className="p-3">
         <h1>Accommodation</h1>
         Do you want to plan your trip like a pro? or realize you've had one too many shandies and need a place to crash?
@@ -91,7 +91,7 @@ const Accommodation = () => {
         <br></br>
       </div>
       <input
-        className="border-dark rounded mt-2"
+        className="border-dark rounded mt-2 p-1"
         placeholder='Enter a town name...'
         type="text"
         value={searchTerm}
@@ -100,7 +100,7 @@ const Accommodation = () => {
         }
       />
       <br></br>
-      <button className="mt-2 btn border-2 border-dark rounded" onClick={handleSearch}>
+      <button className="mt-2 btn btn-warning border-2 border-dark rounded" onClick={handleSearch}>
         Search
       </button>
 
@@ -108,7 +108,7 @@ const Accommodation = () => {
         filteredResults.map((result) => {
           let href = result.Url;
           return (
-            <div className='text-center border border-dark rounded m-2 p-2 mt-2'>
+            <div className='acc-box text-center border border-dark border-4 rounded m-2 p-2 mt-2'>
               <h4>{result.Name}</h4>
               <p>{result.Tags}</p>
               <a href={href} target='_blank' rel="noreferrer">
