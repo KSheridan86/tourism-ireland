@@ -7,8 +7,7 @@ const Home = () => {
         <div className="p-3 m-auto mt-0 col-12 col-lg-5">
           <img src="/images/food-map.jpg" alt="Ireland" className="home-image rounded" />
         </div>
-
-        <div className="home m-auto rounded p-5 p-lg-3 p-xl-5 m-1 mt-3 text-center col-11 col-lg-5">
+        <div className="home m-auto rounded p-5 p-lg-3 p-xl-3 p-xxl-5 m-1 mt-3 text-center col-11 col-lg-5">
           <h3>Fáilte</h3>
           <p>
             Welcome to the enchanting land of Ireland! <hr></hr>
@@ -24,24 +23,7 @@ const Home = () => {
             memories to last a lifetime.
           </p>
         </div>
-
       </div>
-      
-      {/* <div className="home m-auto rounded p-3 mt-auto text-center">
-        <p>
-          Welcome to the enchanting land of Ireland! <hr></hr>
-          A captivating destination that beckons travelers from across the globe. <hr></hr>
-          With its breathtaking landscapes, rich history, vibrant culture, and warm hospitality, Ireland offers an unforgettable 
-          experience to all who venture here. <hr></hr> 
-          Immerse yourself in the lush green countryside, dotted with ancient castles and 
-          charming villages, or explore the bustling cities that seamlessly blend tradition with modernity. 
-          Discover the legendary myths and folklore, savor the flavors of traditional Irish cuisine, and experience the lively 
-          pub culture where lively music and dance create an atmosphere of pure joy. <hr></hr>
-          Whether you're drawn to its dramatic coastlines, 
-          mystical ancient sites, or the warmth of its people, Ireland promises to leave an indelible mark on your heart and create 
-          memories to last a lifetime.
-        </p>
-      </div> */}
     </div>
   );
 };

@@ -24,14 +24,13 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg sticky-top">
                 <div className="container">
                     <Link className="navbar-brand" to="/" onClick={closeNav}>
-                        <img src="/images/ireland(1).png" alt="Ireland Flag" className="navbar-logo" />
-                        Are ye havin' the Craic?
+                        <img src="/images/ireland.png" alt="Ireland Flag" className="navbar-logo" />
+                    Are ye havin' the Craic?
                     </Link>
                     <button
                         className="navbar-toggler"
                         type="button"
-                        onClick={toggleNav}
-                    >
+                        onClick={toggleNav}>
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className={`collapse navbar-collapse${isNavOpen ? ' show' : ''}`}>

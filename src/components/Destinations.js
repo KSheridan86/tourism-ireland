@@ -4,15 +4,14 @@ const Destinations = () => {
   return (
     <div class="text-center featured-destinations pt-3 container-fluid">
 
-      
       <div className="row justify-content-center">
-        <div className="fs-5 p-2 mb-1 m-3 col-lg-5">
+        <div className="fs-5 mb-1 m-auto col-lg-5">
           <p>"Welcome to Ireland,<br></br> the best little country in the world."</p>
-          <img src="/images/ireland(1).png" alt="Ireland" className="eire mb-4" />
+          <img src="/images/ireland.png" alt="Ireland" className="eire mb-4" />
           <p>Céad Míle Fáilte</p>
         </div>
 
-        <div className="rounded p-2 mt-1 m-auto col-10 col-lg-4 mb-4">
+        <div className="mt-1 m-auto p-2 col-10 col-lg-5 mb-4">
           <p className="fs-5">Check out some of our best destinations below.</p>
           <p><a href="#newgrange">Newgrange</a></p>
           <p><a href="#cliffs">The Cliffs of Moher</a></p>
@@ -44,9 +43,9 @@ const Destinations = () => {
           <p>
           Standing at 214 meters over the depths of the Atlantic Ocean, and stretching for an awesome 8 km, are the rugged 
           Cliffs of Moher in County Clare. Visitors are drawn to the cliffs, not just for their sheer impressive size, 
-          but also for the views of the breath-taking landscape – on a clear day it is possible to see all 5 of the 
+          but also for the views of the breath-taking landscape - on a clear day it is possible to see all 5 of the 
           surrounding counties as well as the Aran Islands. 
-          The awe-inspiring cliffs are also home to Ireland’s largest mainland seabird colony, 
+          The awe-inspiring cliffs are also home to Ireland's largest mainland seabird colony, 
           which between April and July includes Puffins!
           </p>
         </div>
@@ -57,7 +56,7 @@ const Destinations = () => {
         <div className="text-center">
           <img src="/images/skellig_michael.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
           <p>
-          If you are into Star Wars then you will want to visit Skellig Michael – and if you’re not, you should visit anyway 
+          If you are into Star Wars then you will want to visit Skellig Michael - and if you're not, you should visit anyway 
           because it is awe-inspiringly beautiful. The rocky island rises out of the Atlantic just off the Iveragh Peninsula 
           and was frequented by ascetic monks, who chose the towering sea crag as a place to live and worship somewhere between 
           the 6th and 8th centuries.
@@ -88,8 +87,8 @@ const Destinations = () => {
           Set in 47 acres of beautiful land, the gardens were created 150 years ago with the idea of blending the stately 
           home seamlessly into the surrounding landscape. Against the bold backdrop of the Great Sugar Loaf Mountains, 
           the gardens are home to 200 varieties of trees, a rose garden, an Italian garden, and a large kitchen garden. 
-          There are many trails to walk along through the vast landscape – one of which leads to Powerscourt Falls, 
-          Ireland’s highest waterfall at 121 meters.
+          There are many trails to walk along through the vast landscape - one of which leads to Powerscourt Falls, 
+          Ireland's highest waterfall at 121 meters.
           </p>
         </div>
       </div>
@@ -100,10 +99,10 @@ const Destinations = () => {
           <img src="/images/blarney_castle.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
           <p>
             Stick your head over the parapet at the historic Blarney Castle and kiss the famous Blarney Stone
-            as millions have done before you. It’s said that people who manage to kiss the mysterious Blarney Stone 
-            are endowed with ‘the gift of the gab’. This mystic relic isn’t the only interesting attraction at 
-            Blarney Castle – dating back to 1446, the medieval stronghold is a warren of stone passageways and dark dungeons, 
-            so take a tour and discover the castle’s hidden secrets and expanses of rambling green gardens.
+            as millions have done before you. It's said that people who manage to kiss the mysterious Blarney Stone 
+            are endowed with 'the gift of the gab'. This mystic relic isn't the only interesting attraction at 
+            Blarney Castle - dating back to 1446, the medieval stronghold is a warren of stone passageways and dark dungeons, 
+            so take a tour and discover the castle's hidden secrets and expanses of rambling green gardens.
           </p>
         </div>
       </div>

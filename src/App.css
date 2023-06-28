@@ -63,7 +63,7 @@ p > a {
 }
 .navbar .navbar-brand {
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-family: 'Caprasimo', sans-serif;
 }
 .navbar .nav-link {
@@ -83,6 +83,34 @@ footer > a {
   background-color: #01551e;
   color: white;
   height: 10vh;
+}
+
+/* Back to top btn styles & animation */
+.back-to-top-button {
+  font-size: 2rem;
+  background-color: rgb(1, 85, 30, 0);
+  border: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  animation: bounce .5s infinite alternate;
+}
+
+.back-to-top-button.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
 }
 
 /* Home page styles */
@@ -168,6 +196,7 @@ footer > a {
   }
   .navbar .navbar-brand {
     margin-right: 2rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -198,7 +227,4 @@ footer > a {
   .navbar .navbar-brand {
     margin-right: 10rem;
   }
-  /* .home {
-    font-size: 1.1rem;
-  } */
 }
