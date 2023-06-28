@@ -3,12 +3,13 @@ import React from 'react';
 const Home = () => {
   return (
     <div class="home-page container">
-      <div className='row justify-content-center'>
-        <div className="p-3 m-1 mt-0 col-12 col-lg-5">
+      <div className='row justify-content-center mt-3'>
+        <div className="p-3 m-auto mt-0 col-12 col-lg-5">
           <img src="/images/food-map.jpg" alt="Ireland" className="home-image rounded" />
         </div>
 
-        <div className="home m-auto rounded p-3 m-1 mt-3 text-center col-11 col-lg-5">
+        <div className="home m-auto rounded p-5 p-lg-3 p-xl-5 m-1 mt-3 text-center col-11 col-lg-5">
+          <h3>Fáilte</h3>
           <p>
             Welcome to the enchanting land of Ireland! <hr></hr>
             A captivating destination that beckons travelers from across the globe. <hr></hr>

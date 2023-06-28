@@ -1,29 +1,21 @@
+/* universal styles */
 * {
   margin: 0;
   padding: 0;
   font-family: 'Caprasimo', sans-serif;
 }
-
-.email {
-  color: black;
+.background {
+  background-color: #bffdcc;
 }
-
-.navbar-logo {
-  height: 2rem;
-  margin-right: .25rem;
-}
-
 div > a {
   text-decoration: none;
   color: black;
 }
-
 p > a {
   text-decoration: none;
   color: black;
   font-size: 1.1rem;;
 }
-
 .bg {
   background-size: cover;
   background-position: center;
@@ -31,26 +23,152 @@ p > a {
   object-fit: cover;
   height: 80vh;
 }
+.email {
+  color: black;
+  text-decoration: none;
+}
 
+/* Navbar styles */
+.navbar-logo {
+  height: 2rem;
+  margin-right: .25rem;
+}
 .navbar {
   background-color: #01551e;
   color: white;
-  height: 10vh;
+  height: 12vh;
 }
-
 .navbar-nav {
   background-color: #01551e;
 }
-
 .navbar-collapse {
   width: 100%;
-  margin-left: 10rem;
+  margin-left: 0rem;
   background-color: #01551e;
   z-index: 1;
   overflow-y: auto;
   text-align: center;
   max-height: 100vh;
   transition: max-height 0.3s ease;
+}
+.navbar-collapse.show {
+  max-height: calc(100vh - 56px);;
+}
+.navbar-toggler {
+  position: relative;
+  z-index: 2;
+}
+.navbar-toggler-icon {
+  background-color: #01551e;
+}
+.navbar .navbar-brand {
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Caprasimo', sans-serif;
+}
+.navbar .nav-link {
+  color: white;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #fe9901;
+  width: 70%;
+  margin: auto;
+}
+
+/* Footer styles */
+footer > a {
+  color: white;
+  text-decoration: none;
+}
+.footer {
+  background-color: #01551e;
+  color: white;
+  height: 10vh;
+}
+
+/* Home page styles */
+.home {
+  color: black;
+  font-size: 1rem;
+  height: 100vh;
+  border: 3px solid #fe9901;
+  background-color: rgba(241, 184, 118, 0.4);
+}
+.home-image {
+  min-height: 80vh;
+  width: 100%;
+  object-fit: fill;
+  border: 3px solid #fe9901;
+}
+.home-page, .contact-page {
+  min-height: 100vh;
+  background-color: rgb(245, 245, 245, .2);
+  padding-bottom: 2rem;
+}
+
+/* Destination page styles */
+.featured-destination-pic {
+  width: 100%;
+  object-fit: cover;
+}
+.destinations {
+  color: black;
+  font-size: 1rem;
+  background-color: rgba(241, 184, 118, 0.4);
+  border: 3px solid #fe9901;
+}
+#guinness, #cliffs, #blarney, #powerscourt, #newgrange, #skellig {
+  border: 3px solid #fe9901;
+  background-color: rgba(241, 184, 118, 0.4);
+}
+.featured-destinations {
+  background-color: rgb(245, 245, 245, .2);
+}
+.eire {
+  width: 50%;
+  height: auto;
+}
+
+/* Accommodation page styles */
+.acc-box {
+  background-color: rgba(241, 184, 118, 0.4);
+  border: 3px solid #fe9901;
+}
+.accommodation {
+  min-height: 100vh;
+  color: rgb(29, 29, 29);
+  background-color: rgb(245, 245, 245, .2);
+}
+.hotel-url {
+  font-size: .85rem;;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .home {
+    font-size: 1rem;
+    width: 90%;
+    height: auto;
+  }
+  .destinations {
+    font-size: 1rem;
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .eire {
+    width: 25%;
+  }
+  .navbar .nav-link {
+    border-bottom: none;
+    margin-left: 2rem;
+  }
+  .navbar .nav-link:hover {
+    color: #fe9901;
+  }
+  .navbar .navbar-brand {
+    margin-right: 2rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -70,122 +188,17 @@ p > a {
   }
 }
 
-.navbar-collapse.show {
-  max-height: calc(100vh - 56px);;
-}
-
-.navbar-toggler {
-  position: relative;
-  z-index: 2;
-}
-
-.navbar-toggler-icon {
-  background-color: #01551e;
-}
-
-.navbar .navbar-brand {
-  color: white;
-  font-size: 1.25rem;
-  font-family: 'Caprasimo', sans-serif;
-}
-
-.navbar .nav-link {
-  color: white;
-  font-size: 1.25rem;
-  border-bottom: 1px solid #fe9901;
-  width: 70%;
-  margin: auto;
-}
-
-.home {
-  color: black;
-  font-size: 1.25rem;
-  /* width: 100%; */
-  border: 3px solid #fe9901;
-  background-color: rgba(241, 184, 118, 0.4);
-}
-
-.home-image {
-  width: 100%;
-  object-fit: cover;
-  border: 3px solid #fe9901;
-}
-
-.featured-destination-pic {
-  width: 100%;
-  object-fit: cover;
-}
-
-.home-page, .contact-page {
-  min-height: 100vh;
-  background-color: rgb(245, 245, 245, .2);
-  padding-bottom: 2rem;
-}
-
-.acc-box {
-  background-color: rgba(241, 184, 118, 0.4);
-  border: 3px solid #fe9901;
-}
-
-.background {
-  background-color: #bffdcc;
-}
-
-.destinations {
-  color: black;
-  font-size: 1rem;
-  /* width: 70%; */
-  background-color: rgba(241, 184, 118, 0.4);
-  border: 3px solid #fe9901;
-}
-
-#guinness, #cliffs, #blarney, #powerscourt, #newgrange, #skellig {
-  border: 3px solid #fe9901;
-  background-color: rgba(241, 184, 118, 0.4);
-}
-
-.featured-destinations {
-  /* min-height: 100vh; */
-  background-color: rgb(245, 245, 245, .2);
-}
-
-.accommodation {
-  min-height: 100vh;
-  color: rgb(29, 29, 29);
-  background-color: rgb(245, 245, 245, .2);
-}
-
-@media (max-width: 768px) {
-  .destinations {
-    font-size: 1rem;
-    width: 90%;
-  }
-}
-
-.footer {
-  background-color: #01551e;
-  color: white;
-  height: 20vh;
-}
-
-
-/* Media Queries */
-
-@media (max-width: 768px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .home {
-    font-size: 1rem;
-    width: 90%;
+    font-size: .9rem;
   }
 }
 
-
-.eire {
-  width: 50%;
-  height: auto;
-}
-
-@media (min-width: 992px) {
-  .eire {
-    width: 25%;
+@media (min-width: 1400px){
+  .navbar .navbar-brand {
+    margin-right: 10rem;
   }
+  /* .home {
+    font-size: 1.1rem;
+  } */
 }

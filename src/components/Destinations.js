@@ -4,14 +4,16 @@ const Destinations = () => {
   return (
     <div class="text-center featured-destinations pt-3 container-fluid">
 
-      <div className="fs-5 p-2 mb-1 m-3">
-        <p>"Welcome to the enchanting land of Ireland, the best little country in the world."</p>
-        <img src="/images/ireland(1).png" alt="Ireland" className="eire mb-2" />
-        <p>Céad Míle Fáilte</p>
-      </div>
+      
       <div className="row justify-content-center">
-        <div className="destinations rounded p-2 mt-1 m-auto col-10 col-lg-6 mb-4">
-          <p>Check out some of our best destinations below.</p>
+        <div className="fs-5 p-2 mb-1 m-3 col-lg-5">
+          <p>"Welcome to Ireland,<br></br> the best little country in the world."</p>
+          <img src="/images/ireland(1).png" alt="Ireland" className="eire mb-4" />
+          <p>Céad Míle Fáilte</p>
+        </div>
+
+        <div className="rounded p-2 mt-1 m-auto col-10 col-lg-4 mb-4">
+          <p className="fs-5">Check out some of our best destinations below.</p>
           <p><a href="#newgrange">Newgrange</a></p>
           <p><a href="#cliffs">The Cliffs of Moher</a></p>
           <p><a href="#blarney">Blarney Castle</a></p>

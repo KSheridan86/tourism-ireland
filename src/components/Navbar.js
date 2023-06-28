@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faMapMarkedAlt, faBed, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../App.css';
 import Home from './Home';
 import Destinations from './Destinations';
@@ -36,36 +38,34 @@ const Navbar = () => {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link className="nav-link custom-navbar-link" to="/" onClick={closeNav}>
-                                    Home
+                                    <FontAwesomeIcon icon={faHome} /> Home
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/destinations" onClick={closeNav}>
-                                    Destinations
+                                    <FontAwesomeIcon icon={faMapMarkedAlt} /> Destinations
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/accommodation" onClick={closeNav}>
-                                    Accommodation
+                                    <FontAwesomeIcon icon={faBed} /> Accommodation
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact" onClick={closeNav}>
-                                    Contact
+                                    <FontAwesomeIcon icon={faEnvelope} /> Contact
                                 </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            {/* <div className="container bg"> */}
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/destinations" element={<Destinations />} />
                     <Route path="/accommodation" element={<Accommodation />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
-            {/* </div> */}
         </Router>
     );
 };
