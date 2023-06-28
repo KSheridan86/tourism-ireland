@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="row justify-content-center">
         <div className="contact p-2 col-10 col-lg-6 text-center">
           <h1>This site was built by Chimp Tech Web Design.</h1>
-          <img src="/images/chimp-tech.png" alt="Ireland" className="mb-4" />
+          <img src="/images/chimp-tech.png" alt="Chimp Tech logo" className="mb-4" />
           <h3>
             If you would like to get in touch with us, please email us 
             <a className="email" href="mailto: bobthewind420@gmail.com"> HERE</a>

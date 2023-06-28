@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Are ye havin' the Craic?
+#### Information site on Irish Tourism, with a function to search accommodation from over 2000 locations around Ireland.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Theme](#theme)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Credits](#credits)
+- [Author Info](#author-info)
 
-### `npm start`
+------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
+I would like to present my project, a tourist site that highlights some of Ireland's finest destinations and offers a convenient way for users to search for accommodations. The purpose of this project is to provide a comprehensive platform for tourists to explore and plan their trips to Ireland. Users can navigate through a curated selection of Ireland's most captivating locations, including breathtaking landscapes, historical landmarks, and culturally significant sites. Our site simplifies the process of finding suitable accommodations by offering a search functionality that allows users to filter results based on their preferences. Whether it's a desire to experience the dramatic Cliffs of Moher, soak in the vibrant atmosphere of Dublin, or discover anything else Ireland has to offer, our platform ensures that users can easily access the information they need to make informed decisions about their travel arrangements. By showcasing Ireland's rich heritage, folklore, and warm hospitality, we aim to assist and inspire travelers in planning memorable experiences that truly capture the essence of this remarkable country.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+------
+## Theme 
+The theme of our project embodies a minimal, lighthearted, and uncluttered design that aims to provide an informative and enjoyable user experience. We have chosen a simple color palette that enhances usability and ensures visual coherence throughout the site. By employing clean lines, ample whitespace, and intuitive navigation, we create a sense of tranquility and ease of use. Our emphasis on simplicity allows users to focus on the content and the stunning imagery of Ireland's landscapes and attractions. Through thoughtful typography and carefully selected visuals, we aim to convey information in a clear and approachable manner. By adopting this minimalistic and lighthearted theme, we aspire to create an engaging platform that seamlessly guides users through their exploration of Ireland's best destinations, promoting a sense of delight and discovery at every step.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+> ### Navigation menu 
+![screenshot](./docs/nav.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On mobile and tablet devices the main navigation menu is housed inside a hamburger menu.
+This opens up and reveals links to all four pages.
+On laptops or bigger devices the menu is spread across the header bar which also contains the logo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> ### Home Page  
+![screenshot](./docs/home.png)
 
-### `npm run eject`
+This page gives a brief introduction to Ireland and the many reasons for wanting to visit.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> ### Destinations Page 
+![screenshot](./docs/destinations.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This page showcases 6 of Ireland's most popular destinations.(provided by the NCI)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+> ### Accommodation Page 
+![screenshot](./docs/accommodation.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Here you will find a form that allows the user to search towns or cities in Ireland and find accommodation nearby.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+> ### Contact Page 
+![screenshot](./docs/contact.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here you will find information on the site's creator and a ways to contact them.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Back to the Top](#table-of-contents)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- HTML
+- CSS
+- Bootstrap
+- React
+- Git
+- GitHub
+- Visual Studio Code
+- Markdown
+- FontAwesome
+- Google Fonts
 
-### Deployment
+#### Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- NCI Curriculum
+- YouTube
+- Udemy
+- FreeCodeCamp
+- W3Schools.com
+- MDN Web Docs
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back to the Top](#table-of-contents)
+
+---
+
+
+## Credits
+
+- Bootstrap
+    - The Bootstrap Library was used throughout the project to make the site responsive and to add features such as the navigation menu and the footer.
+    - [Bootstrap](https://getbootstrap.com/)
+- FontAwesome
+    - The FontAwesome Library was used to add icons to the navigation menu and the footer.
+    - [FontAwesome](https://fontawesome.com/)
+- Google Fonts
+    - Google fonts were used to import the 'Caprasimo' font into the style.css file which is used on all pages throughout the project.
+    - [Google Fonts](https://fonts.google.com/)    
+
+
+[Back to the Top](#table-of-contents)
+
+---
+
+## Author Info
+
+Ken Sheridan, Full Stack Software Developer.
+- [GitHub](https://github.com/KSheridan86)
+- [Linkedin](https://www.linkedin.com/in/kensheridan86/)
+
+
+[Back to the Top](#table-of-contents)
