@@ -22,7 +22,7 @@ const Destinations = () => {
         </div>
         <hr></hr>
 
-      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="guinness">
+      <div className="my-shadow p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="guinness">
         <h2>The Guinness Storehouse</h2>
         <div className="text-center">
           <img src="/images/guinness_storehouse.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -36,7 +36,7 @@ const Destinations = () => {
         </div>
       </div>
 
-      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="cliffs">
+      <div className="my-shadow p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="cliffs">
         <h2>The Cliffs of Moher</h2>
         <div className="text-center">
           <img src="/images/cliffs_of_moher.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -51,7 +51,7 @@ const Destinations = () => {
         </div>
       </div>
 
-      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="skellig">
+      <div className="my-shadow p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="skellig">
         <h2>Skellig Michael</h2>
         <div className="text-center">
           <img src="/images/skellig_michael.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -64,7 +64,7 @@ const Destinations = () => {
         </div>
       </div>
 
-      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="newgrange">
+      <div className="my-shadow p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="newgrange">
         <h2>Newgrange</h2>
         <div className="text-center">
           <img src="/images/newgrange.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -78,7 +78,7 @@ const Destinations = () => {
         </div>
       </div>
 
-      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="powerscourt">
+      <div className="my-shadow p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="powerscourt">
         <h2>Powerscourt Estate</h2>
         <div className="text-center">
           <img src="/images/powerscourt_estate.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />
@@ -93,7 +93,7 @@ const Destinations = () => {
         </div>
       </div>
 
-      <div className="p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="blarney">
+      <div className="my-shadow p-2 m-3 rounded col-10 col-md-6 col-lg-3" id="blarney">
         <h2>Blarney Castle</h2>
         <div className="text-center">
           <img src="/images/blarney_castle.jpg" alt="Guinness Storehouse" className="featured-destination-pic mb-2 rounded" />

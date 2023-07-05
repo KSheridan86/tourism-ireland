@@ -74,6 +74,10 @@ p > a {
   margin: auto;
 }
 
+.nav-link, .navbar-brand, .footer > a, .footer > div, .title-shadow {
+  text-shadow: 2px 2px 4px rgba(76, 76, 76, 0.8);
+}
+
 /* Footer styles */
 footer > a {
   color: white;
@@ -127,10 +131,13 @@ footer > a {
   object-fit: fill;
   border: 3px solid #fe9901;
 }
-.home-page, .contact-page {
+.contact-page {
   min-height: 100vh;
   background-color: rgb(245, 245, 245, .2);
   padding-bottom: 2rem;
+}
+.my-shadow {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 /* Destination page styles */

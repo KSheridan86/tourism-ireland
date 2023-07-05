@@ -48,7 +48,7 @@ const Accommodation = () => {
 
         return (
           <div
-            className='acc-box text-center rounded m-2 p-3 mt-4 mb-2 col-12 col-md-4 col-lg-4'
+            className='my-shadow acc-box text-center rounded m-2 p-3 mt-4 mb-2 col-12 col-md-4 col-lg-4'
             key={result.id}>
             <h4>{result.Name}</h4>
             <p>{result.Tags}</p>
@@ -67,7 +67,7 @@ const Accommodation = () => {
     <div className='text-center accommodation container'>
       <div className="row justify-content-center">
         <div className="p-3 col-12 col-lg-6 fs-5">
-          <h1 className="mt-3 mb-3">Fancy getting your head down for a few hours?</h1>
+          <h1 className="title-shadow mt-3 mb-3">Fancy getting your head down for a few hours?</h1>
           <p className="mb-3">Planning your trip like a pro? </p>
           <p className='mb-3'>Realizing you've had one too many shandies and need a place to crash?</p>
           <p className="mb-3">Fear not, we've got you covered!</p>
@@ -75,7 +75,7 @@ const Accommodation = () => {
         </div>
       </div>
       <input
-        className="border-dark rounded p-1"
+        className="my-shadow border-dark rounded p-1"
         placeholder='Enter a town name...'
         type="text"
         value={searchTerm}
@@ -85,7 +85,7 @@ const Accommodation = () => {
       />
       <br></br>
       <button
-        className="mt-4 mb-4 btn btn-warning border-2 border-dark rounded"
+        className="my-shadow mt-4 mb-4 btn btn-warning border-2 border-dark rounded"
         onClick={handleSearch}
       >
         Search
