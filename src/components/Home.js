@@ -7,7 +7,7 @@ const Home = () => {
         <div className="p-3 m-auto mt-0 col-12 col-lg-5">
           <img src="/images/food-map.jpg" alt="Ireland" className="home-image rounded" />
         </div>
-        <div className="home m-auto rounded p-5 p-lg-3 p-xl-3 p-xxl-5 m-1 mt-3 text-center col-11 col-lg-5">
+        <div className="home m-auto rounded mb-4 p-5 p-lg-3 p-xl-3 p-xxl-5 m-1 mt-3 text-center col-11 col-lg-5">
           <h3>Fáilte</h3>
           <p>
             Welcome to the enchanting land of Ireland! <hr></hr>
