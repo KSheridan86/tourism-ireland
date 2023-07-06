@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div class="container-fluid contact-page p-3">
       <div className="row justify-content-center">
-        <div className="contact p-2 col-10 col-lg-6 text-center">
+        <div className="contact p-2 col-12 col-lg-6 text-center">
           <h1 className="title-shadow">This site was built by Chimp Tech Web Design.</h1>
           <img src="/images/chimp-tech.png" alt="Chimp Tech logo" className="mb-4" />
           <h3>

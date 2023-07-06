@@ -86,7 +86,7 @@ footer > a {
 .footer {
   background-color: #01551e;
   color: white;
-  height: 10vh;
+  height: 14vh;
 }
 
 /* Back to top btn styles & animation */
@@ -204,6 +204,9 @@ footer > a {
   .navbar .navbar-brand {
     margin-right: 2rem;
     font-size: 1.25rem;
+  }
+  .footer {
+    height: 10vh;
   }
 }
 
